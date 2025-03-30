@@ -1,0 +1,198 @@
+Type                                                                                 : SFF-8636
+
+Identifier [128]                                                                     : QSFP28 or later with SFF-8636 management interface (SFF-8665 et al.) (0x11)
+
+Extended Identifier [129, 7-6]                                                       : Power Class 4 (3.5 W max.) and Power Classes 5, 6 or 7
+Extended Identifier [129, 5]                                                         : Power Class 8 not implemented
+Extended Identifier [129, 4]                                                         : No CLEI code present in Page 02h
+Extended Identifier [129, 3]                                                         : CDR present in Tx
+Extended Identifier [129, 2]                                                         : CDR present in Rx
+Extended Identifier [129, 1-0]                                                       : Power Classes 1 to 4
+
+Connector Type [130]                                                                 : LC (Lucent Connector) (0x07)
+
+Specification Compliance, 10/40G/100G Ethernet Compliance Codes [131, 7]             : Extended
+Specification Compliance, 10/40G/100G Ethernet Compliance Codes [131, 6]             : Not 10GBASE-LRM compliant
+Specification Compliance, 10/40G/100G Ethernet Compliance Codes [131, 5]             : Not 10GBASE-LR compliant
+Specification Compliance, 10/40G/100G Ethernet Compliance Codes [131, 4]             : Not 10GBASE-SR compliant
+Specification Compliance, 10/40G/100G Ethernet Compliance Codes [131, 3]             : Not 40GBASE-CR4 compliant
+Specification Compliance, 10/40G/100G Ethernet Compliance Codes [131, 2]             : Not 40GBASE-SR4 compliant
+Specification Compliance, 10/40G/100G Ethernet Compliance Codes [131, 1]             : Not 40GBASE-LR4 compliant
+Specification Compliance, 10/40G/100G Ethernet Compliance Codes [131, 0]             : Not 40G Active Cable (XLPPI) compliant
+
+Specification Compliance, SONET Compliance Codes [132, 7]                            : N/A
+Specification Compliance, SONET Compliance Codes [132, 6]                            : N/A
+Specification Compliance, SONET Compliance Codes [132, 5]                            : N/A
+Specification Compliance, SONET Compliance Codes [132, 4]                            : N/A
+Specification Compliance, SONET Compliance Codes [132, 3]                            : N/A
+Specification Compliance, SONET Compliance Codes [132, 2]                            : Not OC 48, long reach compliant
+Specification Compliance, SONET Compliance Codes [132, 1]                            : Not OC 48, intermediate reach compliant
+Specification Compliance, SONET Compliance Codes [132, 0]                            : Not OC 48, short reach compliant
+
+Specification Compliance, SAS/SATA Compliance Codes [133, 7]                         : Not SAS 24.0 Gbps compliant
+Specification Compliance, SAS/SATA Compliance Codes [133, 6]                         : Not SAS 12.0 Gbps compliant
+Specification Compliance, SAS/SATA Compliance Codes [133, 5]                         : Not SAS 6.0 Gbps compliant
+Specification Compliance, SAS/SATA Compliance Codes [133, 4]                         : Not SAS 3.0 Gbps compliant
+Specification Compliance, SAS/SATA Compliance Codes [133, 3]                         : N/A
+Specification Compliance, SAS/SATA Compliance Codes [133, 2]                         : N/A
+Specification Compliance, SAS/SATA Compliance Codes [133, 1]                         : N/A
+Specification Compliance, SAS/SATA Compliance Codes [133, 0]                         : N/A
+
+Specification Compliance, Gigabit Ethernet Compliance Codes [134, 7]                 : N/A
+Specification Compliance, Gigabit Ethernet Compliance Codes [134, 6]                 : N/A
+Specification Compliance, Gigabit Ethernet Compliance Codes [134, 5]                 : N/A
+Specification Compliance, Gigabit Ethernet Compliance Codes [134, 4]                 : N/A
+Specification Compliance, Gigabit Ethernet Compliance Codes [134, 3]                 : Not 1000BASE-T compliant
+Specification Compliance, Gigabit Ethernet Compliance Codes [134, 2]                 : Not 1000BASE-CX compliant
+Specification Compliance, Gigabit Ethernet Compliance Codes [134, 1]                 : Not 1000BASE-LX compliant
+Specification Compliance, Gigabit Ethernet Compliance Codes [134, 0]                 : Not 1000BASE-SX compliant
+
+Specification Compliance, Fibre Channel Link Length [135, 7]                         : Not Very long distance (V) compliant
+Specification Compliance, Fibre Channel Link Length [135, 6]                         : Not Short distance (S) compliant
+Specification Compliance, Fibre Channel Link Length [135, 5]                         : Not Intermediate distance (I) compliant
+Specification Compliance, Fibre Channel Link Length [135, 4]                         : Not Long distance (L) compliant
+Specification Compliance, Fibre Channel Link Length [135, 3]                         : Not Medium distance (M) compliant
+
+Specification Compliance, Fibre Channel Transmitter Technology [135, 2]              : N/A
+Specification Compliance, Fibre Channel Transmitter Technology [135, 1]              : Not Longwave laser (LC) compliant
+Specification Compliance, Fibre Channel Transmitter Technology [135, 0]              : Not Electrical inter-enclosure (EL) compliant
+Specification Compliance, Fibre Channel Transmitter Technology [136, 7]              : Not Electrical intra-enclosure compliant
+Specification Compliance, Fibre Channel Transmitter Technology [136, 6]              : Not Shortwave laser w/o OFC (SN) compliant
+Specification Compliance, Fibre Channel Transmitter Technology [136, 5]              : Not Shortwave laser w OFC (SL) compliant
+Specification Compliance, Fibre Channel Transmitter Technology [136, 4]              : Not Longwave Laser (LL) compliant
+Specification Compliance, Fibre Channel Transmitter Technology [136, 3]              : N/A
+Specification Compliance, Fibre Channel Transmitter Technology [136, 2]              : N/A
+Specification Compliance, Fibre Channel Transmitter Technology [136, 1]              : N/A
+Specification Compliance, Fibre Channel Transmitter Technology [136, 0]              : N/A
+
+Specification Compliance, Fibre Channel Transmission Media [137, 7]                  : Not Twin Axial Pair (TW) compliant
+Specification Compliance, Fibre Channel Transmission Media [137, 6]                  : Not Shielded Twisted Pair (TP) compliant
+Specification Compliance, Fibre Channel Transmission Media [137, 5]                  : Not Miniature Coax (MI) compliant
+Specification Compliance, Fibre Channel Transmission Media [137, 4]                  : Not Video Coax (TV) compliant
+Specification Compliance, Fibre Channel Transmission Media [137, 3]                  : Not Multi-mode 62.5 um (M6) compliant
+Specification Compliance, Fibre Channel Transmission Media [137, 2]                  : Not Multi-mode 50 um (M5) compliant
+Specification Compliance, Fibre Channel Transmission Media [137, 1]                  : Not Multi-mode 50 um (OM3) compliant
+Specification Compliance, Fibre Channel Transmission Media [137, 0]                  : Not Single Mode (SM) compliant
+
+Specification Compliance, Fibre Channel Speed [138, 7]                               : Not 1200 MBps (per channel) compliant
+Specification Compliance, Fibre Channel Speed [138, 6]                               : Not 800 MBps compliant
+Specification Compliance, Fibre Channel Speed [138, 5]                               : Not 1600 MBps (per channel) compliant
+Specification Compliance, Fibre Channel Speed [138, 4]                               : Not 400 MBps compliant
+Specification Compliance, Fibre Channel Speed [138, 3]                               : Not 3200 MBps (per channel) compliant
+Specification Compliance, Fibre Channel Speed [138, 2]                               : Not 200 MBps compliant
+Specification Compliance, Fibre Channel Speed [138, 1]                               : Standard
+Specification Compliance, Fibre Channel Speed [138, 0]                               : Not 100 MBps compliant
+
+Encoding [139]                                                                       : 256B/257B (transcoded FEC-enabled data) (0x07)
+
+Signaling rate, nominal [140]                                                        : > 25.4GBd (See Byte 222)
+
+Extended Rate Select Compliance [141, 7]                                             : N/A
+Extended Rate Select Compliance [141, 6]                                             : N/A
+Extended Rate Select Compliance [141, 5]                                             : N/A
+Extended Rate Select Compliance [141, 4]                                             : N/A
+Extended Rate Select Compliance [141, 3]                                             : N/A
+Extended Rate Select Compliance [141, 2]                                             : N/A
+Extended Rate Select Compliance [141, 1-0]                                           : Rate Select Version 2
+
+Length (SMF) [142]                                                                   : 0 - 1 km
+
+Length (OM3 50 um) [143]                                                             : Not Applicable (e.g. AOC) / OM3 fiber type not supported / must be determined from the free side device
+
+Length (OM2 50 um) [144]                                                             : Not Applicable (e.g. AOC) / OM2 fiber type not supported / must be determined from the free side device
+
+Length (OM1 62.5 um) [145]                                                           : Not Applicable (e.g. AOC) / OM1 fiber type not supported / must be determined from the free side device
+
+Length (OM4 50 um) [146]                                                             : Not Applicable (e.g. AOC) / OM4 fiber type not supported / must be determined from the free side device
+
+Device & Transmitter technology [147, 7-4]                                           : 1310 nm DFB
+Device & Transmitter technology [147, 3]                                             : No wavelength control
+Device & Transmitter technology [147, 2]                                             : Unooled transmitter
+Device & Transmitter technology [147, 1]                                             : Pin detector
+Device & Transmitter technology [147, 0]                                             : Transmitter NOT tunable
+
+Vendor Name (wrapping quotes added by TransceiverTool) [148-163]                     : "INNOLIGHT"
+
+Extended Module Codes [164, 7]                                                       : N/A
+Extended Module Codes [164, 6]                                                       : N/A
+Extended Module Codes [164, 5]                                                       : No support for HDR (200G) Infiniband
+Extended Module Codes [164, 4]                                                       : No support for EDR (100G) Infiniband
+Extended Module Codes [164, 3]                                                       : No support for FDR (56G) Infiniband
+Extended Module Codes [164, 2]                                                       : No support for QDR (40G) Infiniband
+Extended Module Codes [164, 1]                                                       : No support for DDR (20G) Infiniband
+Extended Module Codes [164, 0]                                                       : No support for SDR (10G) Infiniband
+
+Vendor OUI [165-167]                                                                 : 44:7c:7f (Vendor name is "Innolight Technology Corporation")
+
+Vendor PN (wrapping quotes added by TransceiverTool) [168-183]                       : "TR-FC13H-HFB"
+
+Vendor Rev (wrapping quotes added by TransceiverTool) [184-185]                      : "1A"
+
+Wavelength [186-187]                                                                 : 1301 nm
+
+Wavelength Tolerance [188-189]                                                       : 73 nm
+
+Max case temperature [190]                                                           : 55 deg C
+
+CC_BASE checksum [191]                                                               : 0xf0 (correct)
+
+Extended Specification Compliance [192]                                              : 100G CWDM4 (0x06)
+
+Options [193, 7]                                                                     : N/A
+Options [193, 6]                                                                     : LPMode/TxDis input signal NOT configurable
+Options [193, 5]                                                                     : IntL/RxLOSL output signal NOT configurable
+Options [193, 4]                                                                     : Tx input adaptive equalizers NOT freeze capable
+Options [193, 3]                                                                     : Tx input equalizers NOT auto-adaptive capable
+Options [193, 2]                                                                     : Tx input equalizers fixed-programmable settings implemented
+Options [193, 1]                                                                     : Rx output emphasis fixed-programmable settings implemented
+Options [193, 0]                                                                     : Rx output amplitude fixed-programmable settings implemented
+
+Options [194, 7]                                                                     : Tx CDR On/Off Control implemented
+Options [194, 6]                                                                     : Rx CDR On/Off Control implemented
+Options [194, 5]                                                                     : Tx CDR Loss of Lock (LOL) flag implemented
+Options [194, 4]                                                                     : Rx CDR Loss of Lock (LOL) flag implemented
+Options [194, 3]                                                                     : Rx Squelch Disable implemented
+Options [194, 2]                                                                     : Rx Output Disable implemented
+Options [194, 1]                                                                     : Tx Squelch Disable implemented
+Options [194, 0]                                                                     : Tx Squelch implemented
+
+Options [195, 7]                                                                     : Memory Page 02h provided
+Options [195, 6]                                                                     : Memory Page 01h provided
+Options [195, 5]                                                                     : Rate select is implemented as defined in 6.2.7
+Options [195, 4]                                                                     : Tx_Disable is implemented
+Options [195, 3]                                                                     : Tx_Fault signal implemented
+Options [195, 2]                                                                     : Tx Squelch implemented to reduce OMA
+Options [195, 1]                                                                     : Tx Loss of Signal implemented
+Options [195, 0]                                                                     : Pages 20-21h NOT implemented
+
+Vendor S/N (wrapping quotes added by TransceiverTool) [196-211]                      : "INIBG6130019"
+
+Date Code, low order digits of year [212-213]                                        : 18
+Date Code, digits of month [214-215]                                                 : 08
+Date Code, digits of day [216-217]                                                   : 16
+Date Code, lot code (wrapping quotes added by TransceiverTool) [218-219]             : "  "
+
+Diagnostic Monitoring Type [220, 7]                                                  : N/A
+Diagnostic Monitoring Type [220, 6]                                                  : N/A
+Diagnostic Monitoring Type [220, 5]                                                  : Temperature monitoring NOT implemented
+Diagnostic Monitoring Type [220, 4]                                                  : Supply voltage monitoring NOT implemented
+Diagnostic Monitoring Type [220, 3]                                                  : Received power measurements type = Average
+Diagnostic Monitoring Type [220, 2]                                                  : Transmitter power measurement supported
+Diagnostic Monitoring Type [220, 1]                                                  : N/A
+Diagnostic Monitoring Type [220, 0]                                                  : N/A
+
+Enhanced Options [221, 7]                                                            : N/A
+Enhanced Options [221, 6]                                                            : N/A
+Enhanced Options [221, 5]                                                            : N/A
+Enhanced Options [221, 4]                                                            : Initialization Complete Flag implemented
+Enhanced Options [221, 3]                                                            : Rate selection is implemented using extended rate selection
+Enhanced Options [221, 2]                                                            : N/A
+Enhanced Options [221, 1]                                                            : TC readiness flag NOT implemented
+Enhanced Options [221, 0]                                                            : Software reset is NOT implemented
+
+Baud Rate, nominal [222]                                                             : 25750 MBd
+
+CC_EXT checksum [223]                                                                : 0x56 (correct)
+
+Vendor Specific (nonprintable, printed as hex bytes) [224-255]                       : 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00
+
