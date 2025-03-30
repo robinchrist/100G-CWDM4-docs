@@ -15,7 +15,7 @@ The [datasheets](datasheets) directory contains some datasheets for the transcei
 
 ## Transceiver Specific Notes
 ### Finisar FTLC1152RGPL6-FB
-In Revelprog-IS, go to `password`, select `enter current password`, then enter `00 00 10 11`, click `excute` and then **DESELECT Enter current password`
+In Revelprog-IS, go to `password`, select `enter current password`, then enter `00 00 10 11`, click `excute` and then **DESELECT Enter current password**
 For some reason reprogramming will not work if `Enter current password` stays selected.
 Once unlocked, the transceiver will stay unlocked forever, even after power cycle!
 
@@ -23,7 +23,7 @@ The programming indicates 2km maximum distance, but this is false. The transceiv
 The datasheet indicates that the `6` in FTLC1152RGPL**6** means `Lite reach (500m) and limited temperature range`
 
 ## Finisar FTLC1157RGPL6FB1
-In Revelprog-IS, go to `password`, select `enter current password`, then enter `00 00 10 11`, click `excute` and then **DESELECT Enter current password`
+In Revelprog-IS, go to `password`, select `enter current password`, then enter `00 00 10 11`, click `excute` and then **DESELECT Enter current password**
 For some reason reprogramming will not work if `Enter current password` stays selected.
 Once unlocked, the transceiver will stay unlocked forever, even after power cycle!
 
