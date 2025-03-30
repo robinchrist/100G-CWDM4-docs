@@ -43,7 +43,7 @@ It can be desirable to run 100GBase-CWDM4 transceivers at 40GBit/s, e.g. to conn
 
 Sadly, this is not trivial if you have Mellanox NICs, specifically ConnectX-4 and newer (ConnectX-4, ConnectX-5, ConnectX-6).
 
-As an example, we will use a Mellanox CX416A-CCAT (ConnectX-4 4x100G QSFP28) and Finisar FTLC1152RGPL6-FB transceivers.
+As an example, we will use a Mellanox CX416A-CCAT (ConnectX-4 4x100G QSFP28, Firmware Version `12.28.2302`) and Finisar FTLC1152RGPL6-FB transceivers.
 Let's force the ports to 40Gbit/s
 
 ```
