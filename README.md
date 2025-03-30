@@ -6,12 +6,12 @@ The [datasheets](datasheets) directory contains some datasheets for the transcei
 # List of 100G-CWDM4 transceivers
 | Name | Reprogrammable | Distance |
 |------|----------------|----------|
-|Finisar FTLC1152RGPL6-FB|Yes, with password 0x00 0x00 0x10 0x11|500m|
-|Finisar FTLC1157RGPL6FB1|Yes, with password 0x00 0x00 0x10 0x11|500m|
-|Innolight TR-FC13H-HFB|**No** (Default password from other Inolight does not work)|500m|
-|Intel SPTSBP2CLCKS|**No** (Passowrd unknown)|500m|
-|Kaiam XQX5170|**No** (Passowrd unknown)|2km (from programming, no datasheet available)
-|Innolight TR-FC13T-NAZ|Yes, with password 0x00 0x00 0x10 0x11|2km|
+|Finisar FTLC1152RGPL6-FB|Yes, with password `0x00 0x00 0x10 0x11`|500m|
+|Finisar FTLC1157RGPL6FB1|Yes, with password `0x00 0x00 0x10 0x11`|500m|
+|Innolight TR-FC13H-HFB|**No** (Default password from other Innolight transceivers does not work)|500m|
+|Intel SPTSBP2CLCKS|**No** (password unknown or not reprogrammable)|500m|
+|Kaiam XQX5170|**No** (password unknown or not reprogrammable)|2km (from programming, no datasheet available)
+|Innolight TR-FC13T-NAZ|Yes, with password `0x00 0x00 0x10 0x11`|2km|
 
 ## Transceiver Specific Notes
 ### Finisar FTLC1152RGPL6-FB
